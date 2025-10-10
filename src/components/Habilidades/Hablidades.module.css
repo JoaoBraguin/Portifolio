@@ -1,12 +1,87 @@
-.container{
+.text {
     display: flex;
-    cards{
-        h1{
-            color: white;
-            
-        }
-        p{
-            color: white;
-        }
+    align-items: center;
+    justify-content: center;
+
+
+    h1 {
+        display: flex;
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        margin-top: 100px;
     }
+
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+
+
+    svg {
+        display: flex;
+        margin: auto;
+        margin-top: 20px;
+        font-size: 50px;
+
+    }
+
+    h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family: "Open Sans", sans-serif;
+
+    }
+
+    P {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        color: white;
+        font-family: "Open Sans", sans-serif;
+
+    }
+
+
+}
+
+.cards {
+    display: flex;
+    gap: 14px;
+    padding: 30px;
+    flex-direction: column;
+    background-color: #232323;
+    border: solid 0.5px white;
+    border-radius: 6px;
+    width: 100%;
+    cursor: pointer;
+
+    h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &:hover {
+        transform: scale(1.04);
+        transition: .9s;
+    }
+
+    .html{
+        fill: #E34F26;
+    }
+    .css{
+        color: #264DE4;
+    }
+    .java{
+        color: #D3B62A;
+    }
+    .react{
+        color: #61DBFB;
+    }
+
+
 }

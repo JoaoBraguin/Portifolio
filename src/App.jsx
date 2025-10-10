@@ -3,6 +3,10 @@ import Header from "./components/Header/header";
 import Ribbons from './components/Ribbons/Ribbons'
 import Particles from './components/Hero/Hero';
 import Habilidades from './components/Habilidades/Habilidades'
+import Footer from "./components/Footer/Footer";
+import Sobre from "./components/SobreMim/Sobre";
+
+
 function App() {
   return (
     <>
@@ -30,6 +34,8 @@ function App() {
         />
       </div>
       <Habilidades/>
+      <Sobre/>
+      <Footer/>
     </>
   );
 }

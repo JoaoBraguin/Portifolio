@@ -3,6 +3,7 @@
     position: relative;
     align-items: center;
     justify-content: center;
+    height: 100vh;
 }
 
 .container2 {
@@ -21,7 +22,7 @@
 
     h2 {
         display: flex;
-
+        font-family: "Montserrat", sans-serif;
         -webkit-text-stroke-width: 2px;
         -webkit-text-stroke-color: white;
         font-size: 3em;
@@ -37,6 +38,7 @@
         gap: 16px;
         font-size: 24px;
         margin-top: 10px;
+        cursor: pointer;
 
         .icon {
             &:hover {
