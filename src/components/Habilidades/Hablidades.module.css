@@ -1,0 +1,78 @@
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    h1 {
+        display: flex;
+        font-family: "Open Sans", sans-serif;
+        color: white;
+        margin-top: 20px;
+    }
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+
+
+    svg {
+        display: flex;
+        margin: auto;
+        margin-top: 20px;
+        font-size: 50px;
+
+    }
+
+    h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family: "Open Sans", sans-serif;
+
+    }
+
+    P {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        color: white;
+        font-family: "Open Sans", sans-serif;
+
+    }
+
+
+}
+
+.cards {
+    display: flex;
+    gap: 14px;
+    padding: 30px;
+    flex-direction: column;
+    background-color: black;
+    border: solid 0.5px white;
+    border-radius: 6px;
+    width: 100%;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.04);
+        transition: .9s;
+    }
+
+    @media (max-width: 1500px) {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+
+}

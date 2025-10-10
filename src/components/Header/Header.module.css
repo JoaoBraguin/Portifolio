@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    background-color: black;
+    height: 100px;
+
+    nav {
+        display: flex;
+        gap: 20px;
+        font-size: 22px;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    .name {
+        display: flex;
+        gap: 6px;
+
+        h1 {
+            color: white;
+
+        }
+
+        svg {
+            display: flex;
+            margin: auto;
+            font-size: 25px;
+            color: white;
+
+        }
+    }
+
+
+}
