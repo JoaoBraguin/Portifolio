@@ -5,6 +5,8 @@ import Particles from './components/Hero/Hero';
 import Habilidades from './components/Habilidades/Habilidades'
 import Footer from "./components/Footer/Footer";
 import Sobre from "./components/SobreMim/Sobre";
+import Projetos from "./components/Projetos/Projetos";
+import Contato from "./components/Contato/Contato";
 
 
 function App() {
@@ -35,6 +37,8 @@ function App() {
       </div>
       <Habilidades/>
       <Sobre/>
+      <Projetos/>
+      <Contato/>
       <Footer/>
     </>
   );

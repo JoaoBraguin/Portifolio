@@ -58,8 +58,9 @@
     border-radius: 6px;
     width: 100%;
     cursor: pointer;
+    transition: .9s;
 
-    h1{
+    h1 {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -70,16 +71,19 @@
         transition: .9s;
     }
 
-    .html{
+    .html {
         fill: #E34F26;
     }
-    .css{
+
+    .css {
         color: #264DE4;
     }
-    .java{
+
+    .java {
         color: #D3B62A;
     }
-    .react{
+
+    .react {
         color: #61DBFB;
     }
 
