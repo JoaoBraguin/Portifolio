@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header/header";
 import Ribbons from './components/Ribbons/Ribbons'
 import Particles from './components/Hero/Hero';
+<<<<<<< HEAD
 import Habilidades from './components/Habilidades/Habilidades'
 import Footer from "./components/Footer/Footer";
 import Sobre from "./components/SobreMim/Sobre";
@@ -9,6 +10,9 @@ import Contato from "./components/Contato/Contato";
 import Projetos from "./components/Projetos/Projetos";
 
 
+=======
+import Habilidades from "./components/Habilidades/Habilidades";
+>>>>>>> a85647b46ce3b0e31b5e89b39792707110fc5d13
 function App() {
   return (
     <>
@@ -36,10 +40,13 @@ function App() {
         />
       </div>
       <Habilidades/>
+<<<<<<< HEAD
       <Sobre/>
       <Contato/>
       <Projetos/>
       <Footer/>
+=======
+>>>>>>> a85647b46ce3b0e31b5e89b39792707110fc5d13
     </>
   );
 }

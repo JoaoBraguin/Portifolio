@@ -11,7 +11,10 @@
     "react-dom": "^18.0.0",
     "react-icons": "^5.5.0",
     "react-scripts": "5.0.1",
+<<<<<<< HEAD
     "swiper": "^12.0.2",
+=======
+>>>>>>> a85647b46ce3b0e31b5e89b39792707110fc5d13
     "web-vitals": "^2.1.0"
   },
   "scripts": {

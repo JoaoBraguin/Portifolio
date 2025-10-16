@@ -5,9 +5,12 @@
     margin-top: 10px;
     background-color: black;
     height: 100px;
+<<<<<<< HEAD
     color: white;
     z-index: 5;
     position: relative;
+=======
+>>>>>>> a85647b46ce3b0e31b5e89b39792707110fc5d13
 
     nav {
         display: flex;

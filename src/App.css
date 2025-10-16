@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+<<<<<<< HEAD
 ::-webkit-scrollbar{
   display: none;
 }
@@ -12,3 +13,11 @@ body {
   
 
 }
+=======
+
+body{
+
+  background-color: black;
+}
+
+>>>>>>> a85647b46ce3b0e31b5e89b39792707110fc5d13

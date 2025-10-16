@@ -3,7 +3,11 @@
     position: relative;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     height: 100vh;
+=======
+
+>>>>>>> a85647b46ce3b0e31b5e89b39792707110fc5d13
 }
 
 .container2 {
@@ -18,12 +22,20 @@
         justify-content: center;
         color: white;
         font-size: 20px;
+<<<<<<< HEAD
         font-family: "Montserrat", sans-serif;
+=======
+        font-family: "Open Sans", sans-serif;
+>>>>>>> a85647b46ce3b0e31b5e89b39792707110fc5d13
     }
 
     h2 {
         display: flex;
+<<<<<<< HEAD
         font-family: "Montserrat", sans-serif;
+=======
+        font-family: "Open Sans", sans-serif;
+>>>>>>> a85647b46ce3b0e31b5e89b39792707110fc5d13
         -webkit-text-stroke-width: 2px;
         -webkit-text-stroke-color: white;
         font-size: 3em;
