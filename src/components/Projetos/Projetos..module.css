@@ -1,0 +1,124 @@
+.text {
+    display: flex;
+    margin-left: 100px;
+
+    h1 {
+
+        font-weight: 400;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 40px;
+    
+
+
+
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    h2 {
+        display: flex;
+        padding: 7px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    p {
+        display: flex;
+        padding: 7px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .all {
+
+        cursor: pointer;
+        width: 500px;
+        background-color: rgb(15, 15, 15);
+    }
+
+    .habi {
+        display: flex;
+        /* margin-left: 20px; */
+        gap: 40px;
+        padding: 7px;
+        cursor: pointer;
+
+        .skills {
+            background-color: #333fff;
+            padding: 5px;
+            border-radius: 5px;
+            width: 75px;
+            text-align: center;
+
+
+        }
+
+    }
+
+    .depends {
+        display: flex;
+        margin-top: 20px;
+        background-color: rgb(39, 39, 39);
+        padding: 20px;
+        justify-content: space-between;
+        border-radius: 0px 0px 10px 10px;
+
+        .git {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(71, 71, 71);
+            padding: 7px;
+            border-radius: 7px;
+            width: 100px;
+            border: none;
+            padding: 10px;
+
+        }
+
+        .https {
+            display: flex;
+
+            background-color: #333fff;
+            padding: 7px;
+            border-radius: 7px;
+            width: 90px;
+            border: none;
+            padding: 10px;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            color: white;
+            gap: 4px;
+            text-decoration: none;
+        }
+    }
+
+    .champion {
+        display: flex;
+        color: #e4a112;
+
+        p {
+            gap: 4px;
+        }
+
+        svg {
+            color: #e4a112;
+        }
+    }
+
+
+
+}
